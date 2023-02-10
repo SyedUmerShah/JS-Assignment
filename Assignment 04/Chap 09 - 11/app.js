@@ -100,36 +100,36 @@
 
 
 // Q6
-// var sub1 = prompt("Enter Your Subject Name 01")
-// var sub2 = prompt("Enter your Subject Name 02")
-// var sub3 = prompt("Enter Your Subject Name 03")
-// var totalMarks1 = +prompt("Enter your " + sub1 + " Total Marks")
-// var obtainedMarks1 = +prompt("Enter your " + sub1 + " Obtained Marks")
-// var totalMarks2 = +prompt("Enter your " + sub2 + " Total Marks")
-// var obtainedMarks2 = +prompt("Enter your " + sub2 + " Obtained Marks")
-// var totalMarks3 = +prompt("Enter your " + sub3 + " Total Marks")
-// var obtainedMarks3 = +prompt("Enter your " + sub3 + " Obtained Marks")
+var sub1 = prompt("Enter Your Subject Name 01")
+var sub2 = prompt("Enter your Subject Name 02")
+var sub3 = prompt("Enter Your Subject Name 03")
+var totalMarks1 = +prompt("Enter your " + sub1 + " Total Marks")
+var obtainedMarks1 = +prompt("Enter your " + sub1 + " Obtained Marks")
+var totalMarks2 = +prompt("Enter your " + sub2 + " Total Marks")
+var obtainedMarks2 = +prompt("Enter your " + sub2 + " Obtained Marks")
+var totalMarks3 = +prompt("Enter your " + sub3 + " Total Marks")
+var obtainedMarks3 = +prompt("Enter your " + sub3 + " Obtained Marks")
 
-// var allTotalMarks = (totalMarks1 + totalMarks2 + totalMarks3)
-// var allObtainedMarks = (obtainedMarks1 + obtainedMarks2 + obtainedMarks3)
-// var percentage = (allObtainedMarks / allTotalMarks * 100 )
-// console.log(percentage)
+var allTotalMarks = (totalMarks1 + totalMarks2 + totalMarks3)
+var allObtainedMarks = (obtainedMarks1 + obtainedMarks2 + obtainedMarks3)
+var percentage = (allObtainedMarks / allTotalMarks * 100 )
+console.log(percentage)
 
 
-// if (percentage >= 80) {document.write("<center>" + "<h1>" + "Mark Sheet" + "</h1>" + "/<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : A-One" +"<br>"+ "Remarks : Excellent" + "</h2>" + "</center>" )
+if (percentage >= 80) {document.write("<center>" + "<h1>" + "Mark Sheet" + "<h1>" + "<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : A-One" +"<br>"+ "Remarks : Excellent" + "<h2>" + "<center>" )
     
-// }
-// if (percentage >= 70) {document.write("<center>" + "<h1>" + "Mark Sheet" + "</h1>" + "/<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : A" +"<br>"+ "Remarks : Good" + "</h2>" + "</center>" )
+}
+else if (percentage >= 70) {document.write("<center>" + "<h1>" + "Mark Sheet" + "<h1>" + "<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : A" +"<br>"+ "Remarks : Good" + "<h2>" + "<center>" )
     
-// }
+}
 
-// if (percentage >= 60) {document.write("<center>" + "<h1>" + "Mark Sheet" + "</h1>" + "/<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : B" +"<br>"+ "Remarks : You Need To Improve" + "</h2>" + "</center>" )
+else if (percentage >= 60) {document.write("<center>" + "<h1>" + "Mark Sheet" + "<h1>" + "<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : B" +"<br>"+ "Remarks : You Need To Improve" + "<h2>" + "<center>" )
     
-// }
+}
 
-// if (percentage < 60) {document.write("<center>" + "<h1>" + "Mark Sheet" + "</h1>" + "/<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : Fail" +"<br>"+ "Remarks : Sorry" + "</h2>" + "</center>" )
+else {document.write("<center>" + "<h1>" + "Mark Sheet" + "<h1>" + "<center>" + "<br>" + "<center>" + "<h2>" + "Total Marks : " + allTotalMarks + "<br>" + "Marks Obtained : " + allObtainedMarks + "<br>" + "Percentage : " + percentage + "%" + "<br>" + "Grade : Fail" +"<br>"+ "Remarks : Sorry" + "<h2>" + "<center>" )
     
-// }
+}
 
 
 // Q7
