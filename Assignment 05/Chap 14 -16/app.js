@@ -35,22 +35,34 @@
 
 
 // Q8
-// var stud = [prompt("write student name 1")]
-// var index = [prompt("write index 1")]
+// var stud = []
+// stud[0] = prompt("Enter Student Name 01")
+// stud[1] = prompt("Enter Student Name 02")
+// stud[2] = prompt("Enter Student Name 03")
+// var sMarks = []
+// sMarks[0] = prompt("Enter Student 01 Marks")
+// sMarks[1] = prompt("Enter Student 02 Marks")
+// sMarks[2] = prompt("Enter Student 03 Marks")
+
+// document.write("Score of " + stud[0] + " is " + sMarks[0] + "and percentage is " + sMarks[0] /500*100 + "<br>" +
+// "Score of " + stud[1] + " is " + sMarks[1] + "and percentage is " + sMarks[1] /500*100 + "<br>" +
+// "Score of " + stud[2] + " is " + sMarks[2] + "and percentage is " + sMarks[2] /500*100 + "<br>" )
 
 
 
 
 
 // Q9
-var color = ["red", "green", "blue"]
-var newcol = prompt("What color do want to add at the begining")
-
-
-
-
-
-
-
+// var color = ["red", "green", "blue"]
+// color.unshift(prompt("Enter Color To Add The Begining"))
+// document.write(color + "<br>")
+// color.push(prompt("Enter Color To Add The End"))
+// document.write(color + "<br>")
+// color.unshift(prompt("Enter Another Color1 To Add The Begining"),prompt("Enter Another Color2 To Add The Begining"))
+// document.write(color + "<br>")
+// color.shift()
+// document.write(color + "<br>")
+// color.pop()
+// document.write(color)
 
 
