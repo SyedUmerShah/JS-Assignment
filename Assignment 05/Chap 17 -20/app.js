@@ -23,3 +23,37 @@
 //     document.write(tabnum + " x " + i + " = " + tabnum*i +"<br>"   )
 // }
 
+
+
+
+
+// Q5
+// var fruit = ["apple", "banana", "grapes", "anar"]
+// for (var i = 0; i < fruit.length; i++) {
+//         document.write(fruit[i] + "<br>")
+// }
+// for (var i = 0; i < fruit.length; i++) {
+//         document.write("Element At Index " + i + " is " + fruit[i] + "<br>")
+// }
+
+
+
+// Q6
+// for (var i= 0; i <= 15; i++ ){
+//         document.write(i + "," )
+// }
+// document.write("<br>")
+// for (var i= 15; i >= 1; i-- ){
+//         document.write(i + ",")
+        
+// }
+// document.write("<br>")
+// for (var i= 0; i <= 10; i+=2 ){
+//         document.write(i + "," )
+// }
+// document.write("<br>")
+// for (var i= 1; i <= 10; i+=2 ){
+//         document.write(i + "," )
+// }
+
+
