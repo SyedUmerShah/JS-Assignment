@@ -50,8 +50,6 @@
 
 
 
-
-
 // Q9
 // var color = ["red", "green", "blue"]
 // color.unshift(prompt("Enter Color To Add The Begining"))
@@ -64,5 +62,61 @@
 // document.write(color + "<br>")
 // color.pop()
 // document.write(color)
+
+
+
+
+// Question # 10
+
+// var num = [234, 546, 67, 125, 786]
+// document.write(num + "<br>")
+// num.sort()
+// document.write(num)
+
+// Question # 11
+
+
+// document.write("<h1>" + "Cities Name" + "</h1>")
+// var city = ['Quetta', 'Lahore', 'Karachi', 'Islamabad', 'peshawar']
+// document.write(city + "<br>")
+// var selectedCities = city.splice(1, 3)
+// document.write(selectedCities)
+
+// Question # 12
+
+// var arr = ["This", "is", "my", "cat"];
+// let a = arr.join(" ")
+// document.write(a)
+
+// Question # 13
+
+// var item = ['Keyboard', 'Mouse', 'Moniter']
+// document.write("<h1>" + "Devices" + "</h1>")
+// document.write(item[0] + "<br>")
+// document.write(item[1] + "<br>")
+// document.write(item[2] + "<br>")
+
+// Question # 14
+
+// var item = ['Keyboard', 'Mouse', 'Moniter']
+// document.write(item + "<br>")
+// item[0] = [item[2], item[2] = item[0]][0]
+// document.write(item)
+
+// Question # 15
+
+// var company = ['nokia', 'sony', 'motorola', 'samsung', 'apple', 'hair']
+// document.write("<select>" + "<option>" + company[0] + "</option>" + "<br>" +
+//     "<option>" + company[1] + "</option>" + "<br>" +
+//     "<option>" + company[2] + "</option>" + "<br>" +
+//     "<option>" + company[3] + "</option>" + "<br>" +
+//     "<option>" + company[4] + "</option>" + "<br>" +
+//     "<option>" + company[5] + "</option>" + "</select>")
+
+
+
+
+
+
 
 
